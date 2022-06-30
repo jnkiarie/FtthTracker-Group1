@@ -4,7 +4,7 @@ pipeline{
         nodejs 'NodeJS 12.0.0'
     }
     stages{
-        stage('Clone Repository'){
+        stage('Clone Git Repository'){
             steps{ 
                 git 'https://github.com/jnkiarie/FtthTracker-Group1.git'
             }
