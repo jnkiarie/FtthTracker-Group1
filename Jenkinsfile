@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Clone Repository'){
             steps{ 
-                git 'https://github.com/moringagroup1/FTTHTracker.git'
+                git 'https://github.com/jnkiarie/FtthTracker-Group1.git'
             }
         }
     
