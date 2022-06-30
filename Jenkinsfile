@@ -10,11 +10,11 @@ pipeline{
             }
         }
     
-        // stage('Install Dependencies / Build'){
-        //     steps{
-        //         sh 'npm install'
-        //     }
-        // }
+        stage('Install Dependencies / Build'){
+            steps{
+                sh 'npm install'
+            }
+        }
         // stage('Deploy Application to Heroku'){
         //     steps{
         //         withCredentials([usernameColonPassword(credentialsId: 'delani-nodeexpress', variable: 'HEROKU_CREDENTIALS' )]){
