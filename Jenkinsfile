@@ -17,8 +17,8 @@ pipeline{
         }
         stage('Deploy Application to Heroku'){
             steps{
-                withCredentials([usernameColonPassword(credentialsId: 'heroku', variable: 'HEROKU_CREDENTIALS' )]){
-             sh 'git push https://${HEROKU_CREDENTIALS}@git.heroku.com/capstone-ftth-tracker.git master'
+                withCredentials([usernameColonPassword(credentialsId: 'heroku', variable: 'HEROKU' )]){
+             sh 'git push https://${HEROKU}@git.heroku.com/capstone-ftth-tracker.git master'
             }
                }
             }
