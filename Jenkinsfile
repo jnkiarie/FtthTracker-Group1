@@ -5,7 +5,7 @@ pipeline{
         maven 'Maven 3.0'
     }
     stages{
-        stage('Clone Git Repository'){
+        stage('Clone Git Repo'){
             steps{ 
                 git 'https://github.com/jnkiarie/FtthTracker-Group1.git'
             }
