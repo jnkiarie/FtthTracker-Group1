@@ -2,6 +2,7 @@ pipeline{
     agent any
     tools{
         nodejs 'NodeJS 12.0.0'
+        maven 'Maven 3.0'
     }
     stages{
         stage('Clone Git Repository'){
@@ -13,6 +14,11 @@ pipeline{
         stage('Install Dependencies / Build'){
             steps{
                 sh 'npm install'
+            }
+        }
+        stage('Maven Build'){
+            steps{
+                sh 'mvn clean package'
             }
         }
         stage('Deploy Application to Heroku'){
