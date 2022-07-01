@@ -2,7 +2,6 @@ pipeline{
     agent any
     tools{
         nodejs 'NodeJS 12.0.0'
-        maven 'Maven 3.0'
     }
     stages{
         stage('Clone Git Repo'){
@@ -16,7 +15,7 @@ pipeline{
                 sh 'npm install'
             }
         }
-        
+
         stage('Deploy Application to Heroku'){
             steps{
                 withCredentials([usernameColonPassword(credentialsId: 'heroku', variable: 'HEROKU' )]){
