@@ -16,11 +16,7 @@ pipeline{
                 sh 'npm install'
             }
         }
-        stage('Maven Build'){
-            steps{
-                sh 'mvn clean package'
-            }
-        }
+        
         stage('Deploy Application to Heroku'){
             steps{
                 withCredentials([usernameColonPassword(credentialsId: 'heroku', variable: 'HEROKU' )]){
