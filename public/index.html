@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="icon" href="images/saflogo2.PNG" type="image/x-icon">
+  
+    <title>FTTH Tracker</title>
+    <h3>FTTH Tracker</h3>
+    
+  <!-- background -->
+  <style>
+    body {
+        background-image: url('images/internet2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+    <div class="sideright">
+      <img src="images/logo.png" alt="saf image">
+    </div>
+  </head>
+<!-- start of body -->
+  <body>
+    <div>
+      <p>Dear customer,</p><br>
+      <p>Below is the progress of your ticket raised on your Fiber Account.</p><br>
+      <p></p>
+    </div>
+    <div id="progress">
+      <div id="progress-bar"></div>
+      <ul id="progress-num">
+        <li class="step active">Ticket Raised</li>
+        <li class="step">Technician Deployed</li>
+        <li class="step">Confirmation</li>
+        <li class="step">Technician On Site</li>
+        <li class="step">Resolved</li>
+      </ul>
+    </div>
+    <button id="progress-prev" class="btn" disabled>Prev</button>
+    <button id="progress-next" class="btn">Mark as Done</button>
+    <!-- link to js -->
+    <script src="javascripts/script.js"></script>
+   <!-- footer -->
+   <div class="footer">
+      <p>© 2022 FTTH Tracker. All rights reserved | Design by <a href="https://github.com/moringagroup1/FTTHTracker" target="_blank">Group 1 Capstone Project</a></p>
+  </div>
+<!-- / footer -->
+  </body>
+</html>
