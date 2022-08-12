@@ -1,8 +1,87 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#progress {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-
-a {
-  color: #00B7FF;
+#progress-bar {
+  position: absolute;
+  background: rgb(32, 178, 66);
+  height: 5px;
+  width: 0%;
+  top: 50%;
+  left: 0;
+}
+#progress-num {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#progress-num::before {
+  content: "";
+  background-color: lightgray;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  z-index: -1;
+}
+#progress-num .step {
+  border: 3px solid lightgray;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 12px;  
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-family: "Century Gothic";
+}
+#progress-num .step.active {
+  border-color: lightseagreen;
+  background-color: rgb(32, 178, 81);
+  color: #fff;
+}
+.btn {
+    background: lightgray;    
+    border: none;
+    border-radius: 30%;
+    padding: 6px 12px;  
+    font-weight: bold; 
+    font-family: "Century Gothic";
+    
+}
+h3{
+  color: green;
+  font-family: "Century Gothic";
+}
+.sideright{
+  float: none;
+  padding-bottom: 10px;
+}
+.footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: green;
+	color: white;
+	text-align: center;
+  font-family: "Century Gothic";
+}
+a{
+  color:white;
+  font-family: "Century Gothic";
+}
+p{
+  font-family: "Century Gothic";
+  color: white;
+}
+img { 
+  max-width: 100%; height: auto;
 }

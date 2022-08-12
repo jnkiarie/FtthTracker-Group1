@@ -14,6 +14,7 @@ router.get('/', function (req, res) {
         res.send(`${err}`);
       }
       res.send(`${data}`)
+    
     })
   })
 
