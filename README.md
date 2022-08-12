@@ -23,7 +23,7 @@ This project is meant to create a web application that enables the end users (Fi
 
 ## Setup Instruction
 
-There is no any script required to run the application, all you need to do is to visit the <strong>project URL link</strong> [here](link url)
+There is no any script required to run the application, all you need to do is to visit the <strong>project URL link</strong> [here](https://capstone-ftth-tracker.herokuapp.com/)
 
 
 ## Technologies Used
