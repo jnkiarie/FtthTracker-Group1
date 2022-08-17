@@ -32,20 +32,18 @@ func2 = () => {
   document.getElementById("ticketdetails").innerHTML = stage2
 },
 
-func2 = () => {
+func3 = () => {
   const stage3 = "Dear A, Ticket ID: REQ123456: Technician B has been assigned your Ticket will attend to your issue"
   document.getElementById("technician").innerHTML = stage3
 },
 
-func2 = () => {
+func4 = () => {
   const stage4 = "Dear A, Ticket ID: REQ123456: Technician B is on the way to attend to your issue"
   document.getElementById("location").innerHTML = stage4
 },
 ]
 
-// functionarray.forEach(element => {
-//   element();
-// });
+
 
 const updateProgress = () => {
   steps.forEach((step, i) => {
@@ -53,7 +51,9 @@ const updateProgress = () => {
     if (i < active) {
       step.classList.add("active");
   
-     
+      functionarray.forEach(element => {
+        element();
+      });
       //  } else if(active = 2){
       // step.classList.add("active");
       // const stage1 = "Ticket ID: REQ123456 Details Picked as: LOS of internet along Likoni Road, Viraj Apartments, House No. 5"
