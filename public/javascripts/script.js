@@ -53,7 +53,7 @@ let functionarray = [
   },
 
   func4 = () => {
-    const stage4 = "Dear Customer, Ticket ID: REQ123456: Technician B is on the way to attend to your issue"
+    const stage4 = "Dear Customer, Ticket ID: REQ123456: TRouter Replaced and Configurations Updated, Thank for Choosing Safaricom PLC"
     document.getElementById("location").innerHTML = stage4
   },
 ]
