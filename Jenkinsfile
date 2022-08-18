@@ -27,7 +27,7 @@ pipeline{
 
      post{
         success{
-            slackSend message: "Build deployed successfully to Heroku with build number:- ${BUILD_ID}"
+            slackSend message: "Build deployed successfully to Heroku with build number:- ${BUILD_ID}, Link: https://capstone-ftth-tracker.herokuapp.com/"
         }
         }
 }
