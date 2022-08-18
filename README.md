@@ -43,7 +43,7 @@ The program will basically use JavaScript as the programming language and bootst
 For more information you can contact us via email <span>cmcharels.muli@gmail.com</span>.
 
 ## Licence/Copyright
-For licence/copyright information check on the <a href="LICENCE.md"><strong>Licence.md</strong></a> file.
+For licence/copyright information check on the <a href="https://github.com/jnkiarie/FtthTracker-Group1/blob/main/LICENSE"><strong>Licence.md</strong></a> file.
 
 ## Credits
 Special appreciation given to Moringa School and Safaricom PLC.
