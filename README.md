@@ -26,15 +26,12 @@ This project is meant to create a web application that enables the end users (Fi
 
 There is no any script required to run the application, all you need to do is to visit the <strong>project URL link</strong> [here](https://capstone-ftth-tracker.herokuapp.com/)  
 
-# [Linux]
+* [Linux]
 First Start -> make build
 Else -> make run
 
-# [Other]
+* [Other]
 docker-compose up
-
-There is no any script required to run the application, all you need to do is to visit the <strong>project URL link</strong> [here](link url)
-
 
 
 ## Technologies Used
@@ -46,7 +43,7 @@ The program will basically use JavaScript as the programming language and bootst
 For more information you can contact us via email <span>cmcharels.muli@gmail.com</span>.
 
 ## Licence/Copyright
-For licence/copyright information check on the <a href="LICENCE.md"><strong>Licence.md</strong></a> file.
+For licence/copyright information check on the <a href="https://github.com/jnkiarie/FtthTracker-Group1/blob/main/LICENSE"><strong>Licence.md</strong></a> file.
 
 ## Credits
 Special appreciation given to Moringa School and Safaricom PLC.
