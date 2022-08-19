@@ -7,7 +7,9 @@ const ftthSchema = new Schema({
     'email'      : String,
     'prob_desc'  : String,
     'ticket'     : String,
-    'phone'      : Number
+    'phone'      : Number,
+    'status'     : String,
+     'ISP'       : String
 })
 // Create a model from the schema
 const Ftth = mongoose.model('ftth', ftthSchema);
